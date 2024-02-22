@@ -29,6 +29,7 @@ public:
 
     //// STUDENT CODE
     ////
+
     // copy constructor
     ChatBot(const ChatBot &source);
     // copy assignment operator
@@ -38,9 +39,10 @@ public:
     // move assignment operator
     ChatBot &operator=(ChatBot &&source);   
 
-    ChatLogic* GetChatLogic() { return _chatLogic; }
+    ChatLogic* GetChatLogic() { return _chatLogic; }    
     ////
     //// EOF STUDENT CODE
+
 
     // getters / setters
     void SetCurrentNode(GraphNode *node);
